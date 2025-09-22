@@ -5,12 +5,11 @@
   "type": "module",
   "homepage": "https://abo3bidaokasha.github.io/zzzz",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
+  "dev": "vite",
+  "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-
-  },
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
